@@ -1,0 +1,18 @@
+Ideas:
+	Virus
+	Better computer
+	Board state evaluation, chess-esque, rule based
+	Rule-based engine in emptier games
+In code:
+	Store differences-based megaboards for awesome memory usage
+	Use bitfields to store data compactly
+	When evaluating board state, only check new boards
+	ITERATIVE DEEPENING and associated optimizations -- chessprogramming.wikispaces.com
+		If opponent can win, assume he will -- don't pursue other paths
+		Don't keep uninteresting paths in memory once known.
+
+For app:
+	play against computer
+	talk to Hidden Variable, challenge them to game
+	Use NDK to not code in Java
+	
